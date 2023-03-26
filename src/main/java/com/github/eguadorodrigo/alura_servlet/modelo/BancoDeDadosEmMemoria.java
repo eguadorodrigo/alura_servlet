@@ -1,22 +1,22 @@
-package com.github.eguadorodrigo.alura_servlet;
+package com.github.eguadorodrigo.alura_servlet.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class BancoDeDadosEmMemoria {
     private static final List<Empresa> empresas = new ArrayList<>();
-    static void carregaEmpresasPadraoNaMemoria() {
+    public static void carregaEmpresasPadraoNaMemoria() {
         Empresa emp1 = new Empresa("Apple");
         Empresa emp2 = new Empresa("Google");
         empresas.add(emp1);
         empresas.add(emp2);
     }
 
-    static void removerEmpresa(Integer id) {
+    public static void removerEmpresa(Integer id) {
         empresas.removeIf(empresa -> id.equals(empresa.getId()));
     }
 
-    static List<Empresa> listaTodasEmpresasEmMemoria(){
+    public static List<Empresa> listaTodasEmpresasEmMemoria(){
         return empresas;
     }
 

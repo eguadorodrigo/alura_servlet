@@ -1,4 +1,4 @@
-package com.github.eguadorodrigo.alura_servlet;
+package com.github.eguadorodrigo.alura_servlet.servlet;
 
 import java.io.*;
 import javax.servlet.http.*;

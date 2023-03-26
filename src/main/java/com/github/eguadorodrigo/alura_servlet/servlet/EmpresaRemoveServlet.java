@@ -1,4 +1,6 @@
-package com.github.eguadorodrigo.alura_servlet;
+package com.github.eguadorodrigo.alura_servlet.servlet;
+
+import com.github.eguadorodrigo.alura_servlet.modelo.BancoDeDadosEmMemoria;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

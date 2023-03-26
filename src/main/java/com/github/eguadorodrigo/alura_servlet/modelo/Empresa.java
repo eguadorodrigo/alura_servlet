@@ -1,4 +1,4 @@
-package com.github.eguadorodrigo.alura_servlet;
+package com.github.eguadorodrigo.alura_servlet.modelo;
 
 import java.text.DateFormat;
 import java.text.ParseException;

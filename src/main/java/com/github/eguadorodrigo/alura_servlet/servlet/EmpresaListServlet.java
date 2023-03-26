@@ -1,11 +1,11 @@
-package com.github.eguadorodrigo.alura_servlet;
+package com.github.eguadorodrigo.alura_servlet.servlet;
+
+import com.github.eguadorodrigo.alura_servlet.modelo.BancoDeDadosEmMemoria;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.sql.Date;
-import java.util.List;
 
 @WebServlet(name = "EmpresaListServlet", value = "/empresa-list")
 public class EmpresaListServlet extends HttpServlet {
